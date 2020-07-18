@@ -11,6 +11,10 @@
         android:label="main_fragment"
         tools:layout="@layout/fragment_start" >
         <action
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_close_exit"
+            app:popEnterAnim="@anim/fragment_open_enter"
+            app:popExitAnim="@anim/fragment_close_exit"
             android:id="@+id/action_mainFragment_to_chooseCandidateFragment"
             app:destination="@id/chooseCandidateFragment" />
     </fragment>
@@ -18,5 +22,17 @@
         android:id="@+id/chooseCandidateFragment"
         android:name="org.xmart.elections.screens.bulletin.ChooseCandidateFragment"
         tools:layout="@layout/fragment_choose_candidate"
-        android:label="ChooseCandidateFragment" />
+        android:label="ChooseCandidateFragment" >
+        <action
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_close_exit"
+            app:popEnterAnim="@anim/fragment_open_enter"
+            app:popExitAnim="@anim/fragment_close_exit"
+            android:id="@+id/action_chooseCandidateFragment_to_voteSuccessFragment"
+            app:destination="@id/voteSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/voteSuccessFragment"
+        android:name="org.xmart.elections.screens.results.VoteSuccessFragment"
+        android:label="VoteSuccessFragment" />
 </navigation>

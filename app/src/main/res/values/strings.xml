@@ -9,4 +9,13 @@
     <string name="vote_date_full">9 августа, 2020 года</string>
     <string name="choose_one_candidate">Выберите Одного из пяти Кондидатов или вариант Против всех.</string>
     <string name="leave_my_vote">ОСТАВИТЬ МОЙ ГОЛОС</string>
+    <string name="pending">В обработке</string>
+    <string name="thanks_for_your_vote">Спасибо за Ваш голос!</string>
+    <string name="voted_in_template">Голос оставлен 9 августа 2020 года, 14:54</string>
+    <string name="tag">#ОСТАВЬСВОЙЧЕСТНЫЙГОЛОС</string>
+    <string name="calculate_votes">ПОСЧИТАТЬ РЕЗУЛЬТАТЫ</string>
+    <string name="share_app">ПОДЕЛИТЬСЯ ПРИЛОЖЕНИЕМ</string>
+    <string name="timer_description">По истечению этого времени Вы сможете посчитать результаты прямо на Вашем девайсе</string>
+    <string name="time_before_voting_end">До окончания голосования</string>
+    <string name="share_text">#ОСТАВЬСВОЙЧЕСТНЫЙГОЛОС\nв приложении xvote\nhttps://appstore.com/xvote\nhttps://pla.google.com/com.xvote</string>
 </resources>

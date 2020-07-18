@@ -26,7 +26,14 @@ class ChooseCandidateFragment : BaseFragment(R.layout.fragment_choose_candidate)
                   add(Candidate("Черчень Сергей Владимирович", "Председатель партии Белорусская социал-демократическая Грамада"))
                   add(Candidate("Против всех кандидатов", "Не поддерживаю ни одного из представленных выше кандидатов", Candidate.Type.AGAINST_ALL))
               }
-            );
+            ) {
+                btn_leave_my_vote.apply {
+                    setOnClickListener {
+                        navigateTo(R.id.action_chooseCandidateFragment_to_voteSuccessFragment)
+                    }
+                    isEnabled = true
+                }
+            };
         }
     }
 
