@@ -9,5 +9,14 @@
         android:id="@+id/mainFragment"
         android:name="org.xmart.elections.screens.start.StartFragment"
         android:label="main_fragment"
-        tools:layout="@layout/fragment_start" />
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_mainFragment_to_chooseCandidateFragment"
+            app:destination="@id/chooseCandidateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseCandidateFragment"
+        android:name="org.xmart.elections.screens.bulletin.ChooseCandidateFragment"
+        tools:layout="@layout/fragment_choose_candidate"
+        android:label="ChooseCandidateFragment" />
 </navigation>

@@ -3,4 +3,10 @@
     <string name="my_honest_vote">мой\nчестный\nголос</string>
     <string name="elections_date">09 АВГ, 2020</string>
     <string name="vote_btn_title">проголосовать</string>
+    <string name="active">Активный</string>
+    <string name="bullet">Бюллетень</string>
+    <string name="for_choose_president">для выборов Президента Республики Беларусь</string>
+    <string name="vote_date_full">9 августа, 2020 года</string>
+    <string name="choose_one_candidate">Выберите Одного из пяти Кондидатов или вариант Против всех.</string>
+    <string name="leave_my_vote">ОСТАВИТЬ МОЙ ГОЛОС</string>
 </resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_unselected_candidate"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Дмитриев Андрей Владимирович"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black_text_color"/>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#595C63"
+        tools:text="Депутат Палаты представителей Национального собрания Республики Беларусь VI созыва" />
+
+</LinearLayout>

@@ -6,4 +6,14 @@
     <color name="white">#ffffff</color>
     <color name="pink_text_color">#FB3055</color>
     <color name="green_text_color">#09C89A</color>
+    <color name="active_status_bg_color">#1F007AFF</color>
+    <color name="pending_status_bg_color">#1FFFC804</color>
+    <color name="counted_status_bg_color">#1F09C89A</color>
+
+    <color name="active_status_color">#007AFF</color>
+    <color name="pending_status_color">#FFC804</color>
+    <color name="counted_status_color">#09C89A</color>
+    <color name="black_text_color">#1C1D20</color>
+    <color name="divider_color">#1A595C63</color>
+    <color name="blue">#007AFF</color>
 </resources>
