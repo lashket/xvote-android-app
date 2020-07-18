@@ -16,6 +16,9 @@ class VoteSuccessFragment : BaseFragment(R.layout.fragment_vote_success) {
     }
 
     private fun initView() {
+        btn_calculate.setOnClickListener {
+            navigateTo(R.id.action_voteSuccessFragment_to_voteResultFragment)
+        }
         btn_share.setOnClickListener {
             val sendIntent = Intent()
             sendIntent.action = Intent.ACTION_SEND

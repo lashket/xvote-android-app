@@ -18,4 +18,7 @@
     <string name="timer_description">По истечению этого времени Вы сможете посчитать результаты прямо на Вашем девайсе</string>
     <string name="time_before_voting_end">До окончания голосования</string>
     <string name="share_text">#ОСТАВЬСВОЙЧЕСТНЫЙГОЛОС\nв приложении xvote\nhttps://appstore.com/xvote\nhttps://pla.google.com/com.xvote</string>
+    <string name="_2020">Выборы 2020</string>
+    <string name="results_of_votting">Результаты выборов Президента Республики Беларусь</string>
+    <string name="share_results">ПОДЕЛИТЬСЯ РЕЗУЛЬТАТАМИ</string>
 </resources>
