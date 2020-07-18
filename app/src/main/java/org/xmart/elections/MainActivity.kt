@@ -1,18 +1,7 @@
 package org.xmart.elections
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import org.xmart.elections.ui.main.MainFragment
+import org.xmart.elections.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity(R.layout.main_activity) {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                    .replace(R.id.container, MainFragment.newInstance())
-                    .commitNow()
-        }
-    }
 }
